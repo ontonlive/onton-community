@@ -1,0 +1,37 @@
+name: OIP — ONTON Improvement Proposal
+description: Community governance, Co-Host Event Grant, or self-funded ecosystem proposal
+title: "oip: "
+labels: ["type:oip-proposal", "status:triage"]
+body:
+  - type: dropdown
+    id: chamber
+    attributes:
+      label: Originating Chamber
+      options:
+        - ONTON Senate — Topic #745 (Proposals & Tokenomics)
+        - ONTON Senate — Topic #747 (Events, Tests & Co-Host Grants)
+        - ONTON Senate Review Council
+        - ONTON Organizer Council (Chamber 2)
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Proposal Author(s) & Message Reference
+      placeholder: "e.g. @handle (Senate Topic #745, msg #790)"
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Goal & Plain-Language Summary
+      description: What problem does this solve for event hosts, attendees, or ONTON DAO?
+    validations:
+      required: true
+  - type: textarea
+    id: economics
+    attributes:
+      label: Self-Funding & Value Source
+      description: How is this funded without unbacked treasury inflation? (e.g., fee rebates, Featured Quest boosts, or 25% DAO Revenue Buyback Covenant)
+    validations:
+      required: true
