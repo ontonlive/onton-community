@@ -1,0 +1,36 @@
+name: UX Improvement or Organizer Request
+description: Suggest a clearer user flow, organizer dashboard improvement, or feature enhancement
+title: "ux: "
+labels: ["type:ux-improvement", "status:triage"]
+body:
+  - type: dropdown
+    id: chamber
+    attributes:
+      label: Source Chamber / Community Hub
+      options:
+        - ONTON Organizer Council (Chamber 2)
+        - ONTON Senate Review Council
+        - ONTON Senate (Chamber 3)
+        - ONTON Community EN (@ontonsupport)
+        - ONTON Community RU (@ONTONChatRU)
+    validations:
+      required: true
+  - type: input
+    id: reporter
+    attributes:
+      label: Contributor Handle & Message Reference
+      placeholder: "e.g. @handle (Organizer Council, msg #410)"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Problem & Proposed Improvement
+      description: Why does the current flow feel slow or confusing, and what should change?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Who Benefits?
+      placeholder: "Event Organizers / Attendees / Senators"
