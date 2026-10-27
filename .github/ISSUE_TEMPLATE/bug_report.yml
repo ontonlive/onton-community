@@ -1,0 +1,44 @@
+name: Bug Report
+description: Report a bug or broken flow from a live event, Mini-App, Website, or Telegram Bot
+title: "bug: "
+labels: ["type:bug", "status:triage"]
+body:
+  - type: dropdown
+    id: chamber
+    attributes:
+      label: Source Chamber / Community Hub
+      options:
+        - ONTON Senate — Topic #749 (Bug Reports & UX Feedback)
+        - ONTON Senate Review Council
+        - ONTON Organizer Council (Chamber 2)
+        - ONTON Community EN (@ontonsupport)
+        - ONTON Community RU (@ONTONChatRU)
+    validations:
+      required: true
+  - type: input
+    id: reporter
+    attributes:
+      label: Reporter Handle & Telegram Message Reference
+      placeholder: "e.g. @handle (Senate Topic #749, msg #812)"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened? (Plain Language)
+      description: Clear description of what went wrong and what the user expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Open event page...
+        2. Tap Register / Claim...
+        3. See error...
+  - type: textarea
+    id: followup
+    attributes:
+      label: Engineering Link & Follow-Up Status
+      placeholder: "Engineering Issue: ontonlive/onton#XXXX | Status: Triage"
