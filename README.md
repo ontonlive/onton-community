@@ -1,6 +1,9 @@
 # ONTON Community Hub
 
-Public feedback tracker, UX improvement board, Organizer workflow requests, and DAO Chamber proposals for **ONTON (`v2.1`)**.
+Public feedback tracker, UX improvement board, Organizer workflow requests, and DAO Chamber proposals for **ONTON (`v2.1` / `v2.2`)**.
+
+- 📜 **[Official DAO Decisions & OIP Track Record (`DAO_DECISIONS_LOG.md`)](./DAO_DECISIONS_LOG.md)** — Complete ledger of `OIP-1` through `OIP-7`, vote tallies, Telegram evidence links, and delivery status.
+- 🏛 **[DAO Chambers & Recognized Contributors (`CHAMBERS_AND_CONTRIBUTORS.md`)](./CHAMBERS_AND_CONTRIBUTORS.md)** — Directory of the 3 Chambers, Review Council, and recognized community builders.
 
 ---
 
@@ -46,4 +49,4 @@ flowchart LR
 | **Chamber 2 — Organizer Council** | Verified Event Hosts, Pro Organizers & Founding Hosts | `chamber:organizer-council` |
 | **Chamber 1 — Citizen Assembly** | Public Community (`@ontonsupport` EN & `@ONTONChatRU` RU) | `chamber:citizen-assembly` |
 
-See [`CHAMBERS_AND_CONTRIBUTORS.md`](./CHAMBERS_AND_CONTRIBUTORS.md) for the directory of Chambers and recognized community contributors.
+See [`DAO_DECISIONS_LOG.md`](./DAO_DECISIONS_LOG.md) and [`CHAMBERS_AND_CONTRIBUTORS.md`](./CHAMBERS_AND_CONTRIBUTORS.md) for the full governance archive and contributor directory.
